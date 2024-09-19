@@ -38,7 +38,7 @@ def Bmi_hesapla():
 
 window = tkinter.Tk()
 window.title("BMI")
-window.minsize(width = 500 , height = 450)
+window.minsize(width = 250 , height = 200)
 
 my_label = tkinter.Label(text= "Enter Your Kg:" , font=('Arial',10,"italic"))
 my_label.config( fg = "black")
@@ -56,7 +56,7 @@ my_entry2.pack()
 
 
 my_button = tkinter.Button(text = "Calculate",command = Bmi_hesapla)
-my_button.place(x = 25 , y = 25)
+
 my_button.pack()
 
 result_label = tkinter.Label()
